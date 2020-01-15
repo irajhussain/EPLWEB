@@ -1,0 +1,134 @@
+.buttontext{
+font-size: 24pt;
+}
+.aboutImg {
+     width: 900px;
+    height: 300px;
+}
+.homepage{
+    text-align: center;
+}
+.playertable{
+    float: left;
+    margin-left: 0px;
+}
+
+.linkMap{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.arrange{
+    margin-left: 100px;
+    align-content: center;
+}
+.textHome{
+    text-align: justify;
+    
+    font-weight: bold;
+    background-color: lightgray;
+    margin-top: 15px;
+   border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+
+
+.aboutteam {
+    align-content: center;
+}
+
+.TeamImg {
+     width: 600px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.info {
+    background-color: lightgray;
+    width: 600px;
+}
+
+.logopic{
+    
+    width: 60px;
+    height: 60px;
+}
+
+.flip {
+    
+    width: 600px;
+    height: 300px;
+    perspective: 1000px;
+    background-color: yellow;
+    color: black;
+}
+
+.flipIn {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip:hover .flipIn {
+    transform: rotateY(180deg);
+}
+
+.flipOut,
+.flipBack {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    backface-visibility: hidden;
+}
+
+.flipBack {
+    background-color: red;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%; 
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+
+.eventBadge {
+    cursor: pointer;
+    position: relative;
+    width: 100px;
+    align-content: center;
+   
+}
+
+.eventCol {
+
+    font-weight: bold;
+    background-color: lightgray;
+    margin-top: 15px;
+   border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.eventBadge:hover {
+  transform: scale(1.2);  
+}
+
+.badge{
+    align-content: center;
+}
+
+
